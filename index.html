@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- emmet abrv -->
+    <!-- main>.container>img+(h1>span)+p+.socialcontainer>(p>span.number)*3 -->
+    <main>
+      <img
+        id="top"
+        src="./images/bg-pattern-top.svg"
+        alt="bg bubble left"
+      /><img
+        id="bottom"
+        src="./images/bg-pattern-bottom.svg"
+        alt="bg bubble right"
+      />
+      <div class="container">
+        <img src="./images/image-victor.jpg" alt="Profile Pic" />
+        <h1>Victor Crest<span> 26</span></h1>
+        <p>London</p>
+        <div class="socialcontainer">
+          <p><span class="number">80K</span>Followers</p>
+          <p><span class="number">803K</span>Likes</p>
+          <p><span class="number">1.4K</span>Photos</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/JohnB08">JohnB08</a>.
+      </div>
+    </footer>
+  </body>
+</html>
